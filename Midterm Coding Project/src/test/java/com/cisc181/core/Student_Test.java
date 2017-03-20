@@ -211,16 +211,16 @@ public class Student_Test {
 	@Test
 	public void GPATest() 
 	{
-		assertEquals(0.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 0), 0.001);
+		assertEquals(3.75, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 0), 0.001);
 		assertEquals(3.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 1), 0.001);
-		assertEquals(1.5, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 2), 0.001);
-		assertEquals(4.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 3), 0.001);
+		assertEquals(0.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 2), 0.001);
+		assertEquals(2.5, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 3), 0.001);
 		assertEquals(2.5, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 4), 0.001);
-		assertEquals(1.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 5), 0.001);
-		assertEquals(2.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 6), 0.001);
-		assertEquals(3.25, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 7), 0.001);
-		assertEquals(4.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 8), 0.001);
-		assertEquals(0.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 9), 0.001);
+		assertEquals(4.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 5), 0.001);
+		assertEquals(1.5, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 6), 0.001);
+		assertEquals(1.5, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 7), 0.001);
+		assertEquals(2.0, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 8), 0.001);
+		assertEquals(3.75, GPACalculator(ECONF, ECONS, CISCF, CISCS, CALCF, CALCS, 9), 0.001);
 	}
 
 
